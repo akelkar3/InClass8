@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">inclass8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="txtnameHint">Name</string>
+    <string name="txtmailHint">Email</string>
+    <string name="DeptLabel">Department</string>
+    <string name="SISLabel">SIS</string>
+    <string name="CSLabel">CS</string>
+    <string name="BioLabel">BIO</string>
+    <string name="OthersLabel">OTHERS</string>
+    <string name="MoodLabel">Your Current Mood:</string>
+    <string name="SubmitLabel">SUBMIT</string>
+    <string name="StudentInfo">Student Information</string>
+    <string name="DisplayNameLabel">Name:</string>
+    <string name="DisplayEmailLabel">Email:</string>
+    <string name="DisplayDepartmentLabel">Department:</string>
+    <string name="DisplayMood">Mood:</string>
+    <string name="SaveLabel">SAVE</string>
+    <string name="EditInfoLabel">Edit Information</string>
+    <string name="contentDescription">Edit Information</string>
+</resources>

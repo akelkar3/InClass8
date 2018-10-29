@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/txtnameHint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/txtmailHint"
+        android:inputType="textEmailAddress|textWebEmailAddress" />
+
+    <TextView
+        android:id="@+id/editDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/DeptLabel" />
+
+    <RadioGroup
+        android:id="@+id/editrgDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/SIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/SISLabel" />
+
+        <RadioButton
+            android:id="@+id/CS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="@string/CSLabel" />
+
+        <RadioButton
+            android:id="@+id/Bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="@string/BioLabel" />
+
+        <RadioButton
+            android:id="@+id/Others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="@string/OthersLabel" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/MoodText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:text="@string/MoodLabel" />
+
+    <SeekBar
+        android:id="@+id/editMoodseekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:min="0" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="@string/SaveLabel" />
+
+</LinearLayout>
